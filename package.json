@@ -2,11 +2,11 @@
     "name": "s3-resizer",
     "version": "4.0.0",
     "dependencies": {
-        "sharp": "^0.32.0"
+        "sharp": "^0.32.6"
     },
     "devDependencies": {
-        "@aws-sdk/client-s3": "^3.304.0",
-        "@aws-sdk/lib-storage": "^3.304.0"
+        "@aws-sdk/client-s3": "^3.433.0",
+        "@aws-sdk/lib-storage": "^3.433.0"
     },
     "scripts": {
         "_prepare": "mkdir -p out && rm -rf out/node_modules && cp {package.json,index.js} out",
